@@ -9,6 +9,7 @@ UPLOAD_PATH = os.path.join(BASE_PATH,'static/upload/')
 model = load_model(os.path.join(BASE_PATH , 'D:/Ingenium/model.hdf5'))
 
 
+
 ALLOWED_EXT = set(['jpg' , 'jpeg' , 'png' , 'jfif'])
 def allowed_file(filename):
     return '.' in filename and \
